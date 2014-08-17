@@ -17,6 +17,7 @@ _Normalization of Variables_
   
 _Likelihood of Missing Data_
   - Percentage of Null values for each column
+  - Rows with missing columns
 
 _Normal Distributions_
   - Z-scores and T-tests
