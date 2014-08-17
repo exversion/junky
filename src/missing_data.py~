@@ -1,4 +1,0 @@
-import csv 
-
-def check_for_missing_column(file_obj):
-    csv_obj = csv.reader(file_obj)

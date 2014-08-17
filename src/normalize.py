@@ -3,6 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import difflib
 
+
+################
+## Normalization of Variables
+################
+
+
 def variable_normalization(df):
 	'''Tests if the values of a string column are a set of categories. If so how much variance?'''
 	columns = dict()
@@ -32,3 +38,25 @@ def column_variance(df, col):
 		return norm					
 	else:
 		return 'Free Text'
+
+###########################
+## Normal Distribution
+###########################
+
+def descriptives(df):
+	means = dict(df.mean())
+	modes = dict(df.mode())
+	medians = dict(df.median())
+	maxs = dict(df.max())
+	mins = dict(df.min())
+	
+	descript = dict()
+	
+	for c in means.keys():
+		descript[c]= {'mean':means[c],
+						'mode': list(modes[c].values),
+						'median': medians[c],
+						'max_value': maxs[c],
+						'min_value':mins[c]}
+	
+	return descript
