@@ -10,6 +10,9 @@ _Dataset Size_
   
 _Normalization of Variables_
   - In columns with string types does the data need to be cleaned to normalize categories?
+  
+_Likelihood of Missing Data_
+  - Percentage of Null values for each column
 
 _Normal Distributions_
   - Z-scores and T-tests
