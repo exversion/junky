@@ -20,5 +20,5 @@ _Likelihood of Missing Data_
   - Rows with missing columns
 
 _Normal Distributions_
-  - Z-scores and T-tests
-  - Max, Min, Mediun, Mode, Mean
+  - Z-scores, T-tests, F-tests, heteroskedasticity, and box-jenkins test 
+  - Max, Min, Median, Mode, Mean
