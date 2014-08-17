@@ -20,4 +20,4 @@ _Likelihood of Missing Data_
 
 _Normal Distributions_
   - Z-scores, T-tests, F-tests, heteroskedasticity, and box-jenkins test 
-  - Max, Min, Mediun, Mode, Mean
+  - Max, Min, Median, Mode, Mean
