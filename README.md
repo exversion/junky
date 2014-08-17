@@ -4,6 +4,10 @@ junky
 ### Bad Data == Bad Analysis
 Junky is a WiP started at PyGotham 2014 intended to one day become a tool to quickly identify potential problems in the distribution and normalization of datasets.
 
+### Dependencies
+- Pandas, numpy, etc
+
+
 ### Tasks
 _Dataset Size_
   - How many records? How much space do we have to examine subgroups?
