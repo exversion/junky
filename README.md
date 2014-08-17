@@ -19,5 +19,5 @@ _Likelihood of Missing Data_
   - Percentage of Null values for each column
 
 _Normal Distributions_
-  - Z-scores and T-tests
+  - Z-scores, T-tests, F-tests, heteroskedasticity, and box-jenkins test 
   - Max, Min, Mediun, Mode, Mean
