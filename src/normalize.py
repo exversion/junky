@@ -23,7 +23,7 @@ def column_variance(df, col):
 		v = list(count[col].values)
 		for item in v:
 			if item not in matches:
-				similar = difflib.get_close_matches(item, v, n=len(v), cutoff=0.5)
+				similar = difflib.get_close_matches(item, v, n=len(v))
 				if similar:
 					#add our matches to matches list to prevent duplicates
 					matches =  matches + similar

@@ -27,7 +27,10 @@ def main():
 
 	# Check variable variance levels for normalization
 	variance = normalize.variable_normalization(df)
+	
+	#This probably should be moved somewhere else, but for right now...
 	for k, v in variance.iteritems():
+		print '\n===================='
 		print '[Column: '+k+']'
 		try:
 			#make it pretty for demo
